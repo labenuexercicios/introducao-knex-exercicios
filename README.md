@@ -1,12 +1,12 @@
-# Exercício da tarde - Knex - Raw e QueryBuilder
+# Exercício da tarde - Introdução ao Knex
 
 ATENÇÃO! Não forke nem clone esse repositório. Ele serve apenas como enunciado!<br><br>
 
-<strong>Continue trabalhando no seu repositório labecommerce-backend criado anteriormente. Evite trabalhar na main e crie branches para organizar cada nova implementação ou refatoração. A de hoje por exemplo, pode se chamar knex-raw-qbuilder.</strong>
+<strong>Continue trabalhando no seu repositório labecommerce-backend criado anteriormente. Evite trabalhar na main e crie branches para organizar cada nova implementação ou refatoração. A de hoje por exemplo, pode se chamar introducao-knex.</strong>
 
 ### Comando para criar a branch e já entrar nela
 ```
-git checkout -b knex-raw-qbuilder
+git checkout -b introducao-knex
 ```
 <br>
 
