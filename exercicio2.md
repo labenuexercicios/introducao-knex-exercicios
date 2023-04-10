@@ -1,5 +1,8 @@
 # Exercício 2
-Mesmo fluxo do exercício 1.
+
+Apague as tabelas SQL de users, products e purchases e as e crie novamente apenas com as colunas descritas abaixo _(são as mesmas colunas que estão nos requisitos finais do projeto)_.
+
+Em seguida, refatore (ou recrie) os seguintes endpoints:
 
 ## Create User
 - method HTTP (POST)
