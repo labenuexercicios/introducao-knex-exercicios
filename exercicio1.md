@@ -1,5 +1,6 @@
 # Exerício 1
-Configure seu servidor Express para que ele se comunique com seu banco de dados via knex e refatore (ou recrie) os seguintes endpoints:
+A partir de agora, vamos abandonar o uso do arquivo database.ts!
+Configure seu servidor Express para que ele se comunique com seu banco de dados (arquivo .db) via knex e refatore (ou recrie) os seguintes endpoints:
 
 ## Get All Users
 - method HTTP (GET)
