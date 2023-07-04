@@ -18,9 +18,9 @@ Configure seu servidor Express para que ele se comunique com seu banco de dados 
 
 ## Search Product by name
 - method HTTP (GET)
-- path ("/product/search")
+- path ("/products")
 - query params
-    - q
+    - name (exemplo de como deve ficar todo o caminho /products?name=gamer )
 - response
     - status 200
     - array do resultado da busca no arquivo .db
