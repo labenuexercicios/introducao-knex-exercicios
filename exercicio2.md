@@ -12,7 +12,7 @@ Em seguida, refatore (ou recrie) os seguintes endpoints:
     - name
     - email
     - password
-    - createdAt
+    - created_at
 - response
     - status 201
     - "Cadastro realizado com sucesso"
@@ -25,7 +25,7 @@ Em seguida, refatore (ou recrie) os seguintes endpoints:
     - name
     - price
     - description
-    - imageUrl
+    - image_url
 - response
     - status 201
     - "Produto cadastrado com sucesso"
@@ -36,8 +36,8 @@ Em seguida, refatore (ou recrie) os seguintes endpoints:
 - body
     - id
     - buyer
-    - total_Price
-    - created_At
+    - total_price
+    - created_at
 
     
 - response
