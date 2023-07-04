@@ -36,8 +36,8 @@ Em seguida, refatore (ou recrie) os seguintes endpoints:
 - body
     - id
     - buyer
-    - totalPrice
-    - createdAt
+    - total_Price
+    - created_At
 
     
 - response
