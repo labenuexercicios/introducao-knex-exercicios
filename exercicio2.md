@@ -38,7 +38,7 @@ Em seguida, refatore (ou recrie) os seguintes endpoints:
     - buyer
     - totalPrice
     - createdAt
-    - paid
+
     
 - response
     - status 201
