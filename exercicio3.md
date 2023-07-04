@@ -8,7 +8,7 @@ Mesmo fluxo do exercício 1.
     - status 200
     - objeto encontrado do arquivo .db
 
-## Get User Purchases by User id
+## Get purchase by id
 - method HTTP (GET)
 - path ("/users/:id/purchases")
 - response
