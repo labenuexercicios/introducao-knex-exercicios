@@ -8,6 +8,8 @@ Configure seu servidor Express para que ele se comunique com seu banco de dados 
 - response
     - status 200
     - array de users do arquivo .db
+ 
+-------------
 
 ## Get All Products
 - method HTTP (GET)
@@ -15,8 +17,13 @@ Configure seu servidor Express para que ele se comunique com seu banco de dados 
 - response
     - status 200
     - array de products do arquivo .db
+      
+----------------
 
-## Search Product by name
+## Get all products - funcionalidade 1
+
+##### Nessa funcionalidade, NÃO devemos criar um novo endpoint para o Get All Products, é nescessário apenas adicionar essa funcionalidade ao enpoint
+
 - method HTTP (GET)
 - path ("/products")
 - query params
