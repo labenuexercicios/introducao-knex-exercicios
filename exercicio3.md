@@ -10,7 +10,7 @@ Mesmo fluxo do exercício 1.
 
 ## Get purchase by id
 - method HTTP (GET)
-- path ("/users/:id/purchases")
+- path ("/purchases/:id")
 - response
     - status 200
     - array de compras do user no arquivo .db
