@@ -73,4 +73,3 @@ Cadastra um novo pedido. Como dica, o exercício 1 da aula de [Relações em SQL
     message: "Pedido realizado com sucesso"
 }
 ```
-    - "Compra cadastrada com sucesso"
