@@ -1,8 +1,9 @@
 # Exercício 2
 
-Apague as tabelas SQL de users, products e purchases e as e crie novamente apenas com as colunas descritas abaixo _(são as mesmas colunas que estão nos requisitos finais do projeto)_.
+Caso ainda não tenha feito, recrie as tabelas que possuem CHAVE ESTRANGEIRA (FOREGIN KEY), adicionando efeito cascata em suas colunas!
+- https://labenu.notion.site/Definindo-efeito-cascata-ao-criar-foreign-keys-ea245ee9180047fe9ca3acb364f21737
 
-Em seguida, refatore (ou recrie) os seguintes endpoints:
+Em seguida, **refatore (ou crie caso ainda não tenha feito)** os seguintes endpoints:
 
 ## Create user
 Cadastra uma nova pessoa.
