@@ -1,6 +1,6 @@
 # Exerício 1
 A partir de agora, vamos abandonar o uso do arquivo database.ts!
-Configure seu servidor Express para que ele se comunique com seu banco de dados (arquivo .db) via knex e refatore (ou recrie) os seguintes endpoints:
+Configure seu servidor Express para que ele se comunique com seu banco de dados (arquivo .db) via knex e *refatore (ou crie caso ainda não tenha feito)* os seguintes endpoints:
 
 ## Get All Users
 ```typescript
