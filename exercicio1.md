@@ -29,16 +29,42 @@ Configure seu servidor Express para que ele se comunique com seu banco de dados 
  
 -------------
 
-## Get All Products
-- method HTTP (GET)
-- path ("/products")
-- response
-    - status 200
-    - array de products do arquivo .db
+## Get All Products funcionalidade 1
+Retorna todos os produtos cadastrados.
+```typescript
+// Request
+// GET /products
+
+// Response
+// status 200 OK
+[
+    {
+        id: "prod001",
+        name: "Mouse gamer",
+        price: 250,
+        description: "Melhor mouse do mercado!",
+        imageUrl: "https://picsum.photos/seed/Mouse%20gamer/400"
+    },
+    {
+        id: "prod002",
+        name: "Monitor",
+        price: 900,
+        description: "Monitor LED Full HD 24 polegadas",
+        imageUrl: "https://picsum.photos/seed/Monitor/400"
+    },
+    {
+        id: "prod003",
+        name: "Teclado gamer",
+        price: 200,
+        description: "Teclado mecânico com numpad",
+        imageUrl: "https://picsum.photos/seed/Teclado%20gamer/400"
+    }
+]
+```
       
 ----------------
 
-## Get all products - funcionalidade 2
+## Get All Products - funcionalidade 2
 Nessa funcionalidade, NÃO devemos criar um novo endpoint para o Get All Products, é necessário apenas adicionar essa funcionalidade ao endpoint get all products.
 - caso seja enviada uma query params (name) deve ser retornado o resultado da busca de produtos que contenham o _"name"_ informado em seu nome.
 ```typescript
