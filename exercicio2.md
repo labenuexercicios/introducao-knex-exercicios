@@ -4,42 +4,72 @@ Apague as tabelas SQL de users, products e purchases e as e crie novamente apena
 
 Em seguida, refatore (ou recrie) os seguintes endpoints:
 
-## Create User
-- method HTTP (POST)
-- path ("/users")
-- body
-    - id
-    - name
-    - email
-    - password
-    - created_at
-- response
-    - status 201
-    - "Cadastro realizado com sucesso"
+## Create user
+Cadastra uma nova pessoa.
+```typescript
+// Request
+// POST /users
+// body JSON
+{
+    "id": "u003",
+    "name": "Astrodev",
+    "email": "astrodev@email.com",
+    "password": "astrodev00"
+}
 
-## Create Product
-- method HTTP (POST)
-- path ("/products")
-- body
-    - id
-    - name
-    - price
-    - description
-    - image_url
-- response
-    - status 201
-    - "Produto cadastrado com sucesso"
+// Response
+// status 201 CREATED
+{
+    message: "Cadastro realizado com sucesso"
+}
+```
 
-## Create Purchase
-- method HTTP (POST)
-- path ("/purchases")
-- body
-    - id
-    - buyer
-    - total_price
-    - created_at
+## Create product
+Cadastra um novo produto.
+```typescript
+// Request
+// POST /products
+// body JSON
+{
+    "id": "prod003",
+    "name": "Teclado gamer",
+    "price": 200,
+    "description": "Teclado mecânico com numpad",
+    "imageUrl": "https://picsum.photos/seed/Teclado%20gamer/400"
+}
 
-    
-- response
-    - status 201
+// Response
+// status 201 CREATED
+{
+    message: "Produto cadastrado com sucesso"
+}
+```
+
+## Create purchase
+Cadastra um novo pedido. Como dica, o exercício 1 da aula de [Relações em SQL II](https://github.com/labenuexercicios/relacoes-sql-II-exercicios) é uma boa referência.
+```typescript
+// Request
+// POST /purchases
+// body JSON
+{
+    "id": "pur001",
+    "buyer": "u001",
+    "products": [
+        {
+            "id": "prod001",
+            "quantity": 2
+        },
+        {
+            "id": "prod002",
+            "quantity": 1
+        }
+    ]
+}
+
+// Response
+// status 201 CREATED
+{
+    message: "Pedido realizado com sucesso"
+}
+```
     - "Compra cadastrada com sucesso"
