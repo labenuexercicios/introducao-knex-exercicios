@@ -1,9 +1,25 @@
 # Exercício 3
 Mesmo fluxo do exercício 1.
 
-## Get Products by id
-- method HTTP (GET)
-- path ("/products/:id")
-- response
-    - status 200
-    - objeto encontrado do arquivo .db
+## Edit product by id
+Edita um produto existente.
+```typescript
+// Request
+// path params = :id
+
+// PUT /products/prod003
+// body JSON
+{
+    "id": "prod0033",
+    "name": "Teclado gamer RGB",
+    "price": 300,
+    "description": "Teclado mecânico com RGB e numpad",
+    "imageUrl": "https://picsum.photos/seed/Teclado%20gamer%20RGB/400"
+}
+
+// Response
+// status 200 OK
+{
+    message: "Produto atualizado com sucesso"
+}
+```
