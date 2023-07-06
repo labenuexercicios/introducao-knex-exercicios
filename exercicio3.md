@@ -23,3 +23,17 @@ Edita um produto existente.
     message: "Produto atualizado com sucesso"
 }
 ```
+
+## Delete purchase by id
+Deleta um pedido existente.
+```typescript
+// Request
+// path params = :id
+// DELETE /purchases/pur002
+
+// Response
+// status 200 OK
+{
+    message: "Pedido cancelado com sucesso"
+}
+```
